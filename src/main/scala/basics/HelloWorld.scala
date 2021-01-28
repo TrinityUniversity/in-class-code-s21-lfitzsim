@@ -7,9 +7,10 @@ This is a basic main for you to start off with.
 */
 object HelloWorld {
 	def main(args: Array[String]): Unit = {
-    println("What is your name?")
+    	println("What is your name?")
     val name = readLine().trim()
-    println(s"Hello $name!")
+    	println(s"Hello $name!")
+		println("Let's put this in GitHub.")
 	}
 	
 	def square(x: Double) = x*x
